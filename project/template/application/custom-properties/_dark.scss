@@ -1,0 +1,65 @@
+@mixin properties() {
+	$secondary-bg: #000012;
+
+	--primary: #cb6245;
+	--primary-dark: #9e533e;
+	--primary-light: #e46f4e;
+	--primary-accent: #e36152;
+	--text-on-primary: #fff;
+	//--accent-color: #67AAF9;
+	--accent-color: #ffa385;
+	//secondary colors
+	--secondary: #424f6e;
+	--secondary-dark: #030405;
+	--secondary-darker: #0c1525;
+	--secondary-light: #617096;
+	--secondary-accent: #8e99bb;
+	--text-on-secondary: #ffffff;
+	--secondary-background: #{$secondary-bg};
+	//background
+	//--background: linear-gradient(#{ darken(#121F36, 0%)}, #{ darken(#121F36, 10%)});
+	--surface: #112036;
+	--text-color: #fff;
+	--secondary-text-color: #99a3b1;
+	--text-title-color: var(--text-color);
+	--text-second-color: var(--gray-dark);
+	--text-hover-color: var(--primary);
+	--bg-element: var(--secondary-dark);
+	--element-border-color: var(--gray-light);
+	--separator-color: var(--gray-lighter);
+	--app-aside-link-selected: #fff;
+	--primary-surface: #101625;
+	--background: #101625;
+	--app-preload-bg: var(--secondary-darker);
+	//elements
+
+	--app-element-surface: #{rgba(#000, 0.7)};
+	--app-element-hover-surface: #{rgba(#030405, 0.5)};
+	--app-element-border-color-1: var(--color-gray-80);
+	--app-primary-text-gradient: linear-gradient(to right, var(--text-on-primary), var(--secondary-light));
+	--app-secondary-text-gradient: linear-gradient(to right, var(--color-gray-10), var(--color-carbon-30));
+	--app-dark-text-gradient: var(--app-secondary-text-gradient);
+	--app-primary-color: var(--primary-dark);
+	--app-icon-bg: #2b3853;
+	--app-animation-color: #{darken(#2b3853, 5%)}; // primary-surface 800
+
+	--app-bg-svg-color: var(--secondary-dark);
+	--app-bg-svg-secondary-color: var(--secondary-light);
+	--app-logo-bg: var(--surface);
+	--app-clipboard-bg: #fff;
+
+	--app-link-color: var(--primary);
+	--app-link-hover-color: var(--primary-dark);
+	--app-header-link: var(--text-on-primary);
+	--app-insight-surface: var(--secondary-light-light);
+	--app-link-hover-bg: #{rgba(#ff8056, 0.3)};
+	--app-opacity-bg: rgba(0, 0, 0, 0.3);
+	--app-surface-notes: var(--app-opacity-bg);
+	--app-editor-bg: #1d2b3d;
+
+	--app-scrollbar-color: var(--secondary-light);
+	--app-scrollbar-track: var(--color-carbon-95);
+	--app-accent-color: #617096;
+
+	--gh-icon-color: #fff;
+}

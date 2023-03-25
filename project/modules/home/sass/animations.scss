@@ -1,0 +1,17 @@
+@keyframes rotateZ {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes rotateY {
+	0% {
+		transform: rotate(45deg);
+	}
+	100% {
+		transform: rotate(-45deg);
+	}
+}

@@ -1,0 +1,32 @@
+.promotion {
+	.logos {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 1.5rem;
+
+		.plus {
+			font-size: 2rem;
+		}
+
+		.beyondjs-logo {
+			mix-blend-mode: color-dodge;
+			isolation: isolate;
+			animation: rotateY 15s linear infinite alternate;
+		}
+
+		.react-logo {
+			animation: rotateZ 20s linear infinite alternate;
+		}
+
+		.beyondjs-logo,
+		.react-logo {
+			width: 120px;
+			height: 120px;
+		}
+	}
+
+	h2 {
+		font-size: 2.5rem;
+	}
+}
