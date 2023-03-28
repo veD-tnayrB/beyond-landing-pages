@@ -1,0 +1,22 @@
+{
+	"name": "vue-home-fix",
+	"widget": {
+		"is": "page",
+		"route": "/vue-fix",
+		"element": {
+			"name": "vue-home-fix-page"
+		},
+		"vue": {
+			"path": "view",
+			"files": "*"
+		},
+		"ts": {
+			"path": "view",
+			"files": "*"
+		},
+		"sass": {
+			"path": "view",
+			"files": "*"
+		}
+	}
+}
