@@ -20,8 +20,8 @@ import Promotions from './promotions.vue';
 
 export default {
 	components: {
-		Promotions
-	}
+		Promotions,
+	},
 };
 </script>
 
@@ -32,16 +32,14 @@ export default {
 	min-height: 100vh;
 	display: grid;
 	place-content: center;
-
-	.content {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 1.5rem;
-
-		.need-help {
-			font-size: 0.9rem;
-		}
-	}
+}
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1.5rem;
+}
+.need-help {
+	font-size: 0.9rem;
 }
 </style>

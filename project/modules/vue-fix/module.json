@@ -1,10 +1,10 @@
 {
-	"name": "vue-home-fix",
+	"name": "vue-home",
 	"widget": {
 		"is": "page",
-		"route": "/vue-fix",
+		"route": "/vue",
 		"element": {
-			"name": "vue-home-fix-page"
+			"name": "vue-home-page"
 		},
 		"vue": {
 			"path": "view",

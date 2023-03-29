@@ -1,6 +1,6 @@
 <template>
-	<div class="promotion">
-		<div class="logos">
+	<div className="promotion">
+		<div className="logos">
 			<BeyondSVG />
 			<SvelteSVG />
 		</div>
@@ -22,16 +22,15 @@ export default {
 </script>
 
 <style lang="scss">
-.promotion {
-	.logos {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		gap: 1.5rem;
-	}
+h2 {
+	font-size: 2.5rem;
+	text-align: center;
+}
 
-	h2 {
-		font-size: 2.5rem;
-	}
+.logos {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1.5rem;
 }
 </style>
