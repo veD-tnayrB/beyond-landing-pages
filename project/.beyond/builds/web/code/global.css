@@ -1,0 +1,10 @@
+a {
+  color: var(--app-link-color);
+}
+p.secondary {
+  color: var(--secondary);
+  font-weight: lighter;
+}
+* {
+  font-family: var(--font-family);
+}

@@ -1,0 +1,57 @@
+@keyframes rotateZ {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotateY {
+  0% {
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: rotate(-45deg);
+  }
+}
+.promotion .logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.promotion .logos .beyondjs-logo {
+  mix-blend-mode: color-dodge;
+  isolation: isolate;
+  animation: rotateY 15s linear infinite alternate;
+}
+.promotion .logos .react-logo {
+  animation: rotateZ 20s linear infinite alternate;
+}
+.promotion .logos .beyondjs-logo,
+.promotion .logos .react-logo {
+  width: 120px;
+  height: 120px;
+}
+.promotion h2 {
+  font-size: 2.5rem;
+}
+.page__container {
+  background: url("assets/circle.svg") 100%;
+  background-size: cover;
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+}
+.page__container .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+.page__container .content .need-help {
+  font-size: 0.9rem;
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNhc3NcXGFuaW1hdGlvbnMuc2NzcyIsInNhc3NcXHByb21vdGlvbi5zY3NzIiwic2Fzc1xcc3R5bGVzLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDQztJQUNDOztFQUVEO0lBQ0M7OztBQUlGO0VBQ0M7SUFDQzs7RUFFRDtJQUNDOzs7QUNiRDtFQUNDO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0M7RUFDQTtFQUNBOztBQUdEO0VBQ0M7O0FBR0Q7QUFBQTtFQUVDO0VBQ0E7O0FBSUY7RUFDQzs7QUN6QkY7RUFDQztFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0M7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDQyIsImZpbGUiOiIifQ== */

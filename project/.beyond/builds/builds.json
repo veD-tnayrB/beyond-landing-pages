@@ -1,0 +1,10 @@
+{
+  "web": {
+    "platform": "web",
+    "environment": "development",
+    "base": "C:\\Users\\Bryant\\Documents\\Workspace\\Beyond\\landing-page\\project\\.beyond\\builds\\web",
+    "archive": "C:\\Users\\Bryant\\Documents\\Workspace\\Beyond\\landing-page\\project\\.beyond\\builds\\web\\build.zip",
+    "finalised": true,
+    "time": 1695149489507
+  }
+}
