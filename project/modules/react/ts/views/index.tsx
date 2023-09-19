@@ -7,7 +7,7 @@ function Page(): JSX.Element {
 	return (
 		<div className="page__container">
 			<div className="content">
-				<h1>Let's get started using BeyondJS with React</h1>
+				<h1>Let's get started using BeyondJS with React nyasu~~!</h1>
 
 				<div className="promotion">
 					<div className="logos">
