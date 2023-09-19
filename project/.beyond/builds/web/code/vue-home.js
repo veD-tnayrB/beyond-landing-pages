@@ -17,7 +17,7 @@ System.register(["@beyond-js/widgets@0.1.4/render", "@beyond-js/kernel@0.1.9/bun
     }],
     execute: function () {
       bimport = specifier => {
-        const dependencies = new Map([["@beyond-js/kernel", "0.1.9"], ["@beyond-js/local", "0.1.3"], ["@beyond-js/react-18-widgets", "0.0.5"], ["@beyond-js/svelte-widgets", "0.1.1"], ["@beyond-js/vue-widgets", "0.1.1"], ["socket.io-client", "4.6.1"], ["@types/react", "18.0.28"], ["@types/react-dom", "18.0.11"], ["@beyond-js/landing-pages", "0.0.1"], ["@beyond-js/landing-pages", "0.0.1"]]);
+        const dependencies = new Map([["@beyond-js/kernel", "0.1.9"], ["@beyond-js/local", "0.1.3"], ["@beyond-js/react-18-widgets", "0.0.5"], ["@beyond-js/svelte-widgets", "0.1.1"], ["@beyond-js/vue-widgets", "0.1.1"], ["socket.io-client", "4.6.1"], ["@types/react", "18.0.28"], ["@types/react-dom", "18.0.11"], ["netlify-cli", "16.4.0"], ["@beyond-js/landing-pages", "0.0.1"], ["@beyond-js/landing-pages", "0.0.1"]]);
         return globalThis.bimport(globalThis.bimport.resolve(specifier, dependencies));
       };
       ({

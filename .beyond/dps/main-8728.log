@@ -1,0 +1,6 @@
+Dynamic processors logs:
+
+[31mDynamic processor "[1mbundler.bundle.packager.code.js[22m: application//3786384529//layouts/main//widget//1334341767//." is taking more than expected.[39m
+[1m	Waiting for:[22m
+		* bundler.bundle.packager.hash: not processed
+
